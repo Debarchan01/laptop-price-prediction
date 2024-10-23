@@ -6,7 +6,7 @@ import numpy as np
 pipe = pickle.load(open('pipe.pkl','rb'))
 df = pickle.load(open('df.pkl','rb'))
 
-st.title("Laptop Price Predicton")
+st.title("Laptop Price Predictor")
 
 # brand
 company = st.selectbox('Brand',df['Company'].unique())
